@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yves' portfolio</title>
+    <!-- Expand button -->
+    <script src="https://cdn.rawgit.com/icons8/titanic/master/dist/js/titanic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.5.9/bodymovin.min.js"></script>
+   
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- font awesome/line awesome -->
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+</head>
+<!-- <body class="parallax"> -->
+  <body>
+    <div class="pagecontainer">
+ <!-- Navbar -->
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+          
+          <!-- Little avatar or logo -->
+          <a class="navbar-brand" href="#"><img src="img/YvesAvatar.jpg" width="50" height="50" alt=""></a>
+        
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false" aria-controls="collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#internship">Intership</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pr_pr">Professional & Private</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact_circles">Contact</a>
+                </li>
+            </ul>
+          </div> 
+          
+            <form class="form-inline hidden-md-down (hidden-md hidden-sm hidden-xs) = d-none d-lg-block" action="/action_page.php">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalScrollable">Search</button>
+            </form>
+        </nav>
+<!-- End navbar -->
+
+<div class="container">
+ 
+    <!-- Modal navabar-->
+    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollable" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalScrolls">Error</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+             <p>Sorry! Search function is currently unavailable, please try again in a moment.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Row section -->
+ <div class="row">
+ <!-- Jumbotron -->
+        <div class="col-md-12 header-col-sm-12">
+            <div class="header-fluid">
+              <div class="jumbotron text-center text-white">
+                <div class="container">
+                  <img src="img/YvesAvatar.jpg" alt="avatar Yves">
+                  <h2>Yves Loeys</h2>
+                  <p>Front End Developer</p>
+                    <!-- arrow animated -->
+                    <div class="arrow_container">
+                        <div class="arrow">
+                            <i class="la la-angle-double-right arrow1" aria-hidden="true"></i>
+                        </div>
+                        <a href="#mainsection"><div class="titanic titanic-expand"></div></a>
+                    </div>
+                    <div id="mainsection"></div>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+<!-- End Jumbotron -->
+      
+<!-- timeline-col -->
+<div class="col-md-7 col-sm-12">
+<!-- timeline --> <!-- BEM test-->
+    <div class="timeline">
+      
+      <h2 class="timeline__item timeline__item--year">1970</h2>
+      
+      <div class="timeline__item left">
+        <h3 class="timeline__title" id="education">Born</h3>
+      </div>
+      <h2 class="timeline__item timeline__item--year timeline__item--year__milestone"><span><i class="fas fa-graduation-cap" data-toggle="tooltip" data-placement="top" title="Education History"></i><br></span></h2><br>
+      <h2 class="timeline__item timeline__item--year">1990</h2>
+      
+      <div class="timeline__item right">
+        <h3 class="timeline__title">Graduated High School</h3>
+      </div>
+      
+      <h2 class="timeline__item timeline__item--year">1992</h2>
+      
+      <div class="timeline__item left">
+        <h3 class="timeline__title">Started at Massachusetts Institute of Technology.</h3>
+      </div>
+      
+      <h2 class="timeline__item timeline__item--year">1994</h2>
+      
+      <div class="timeline__item right">
+        <h3 class="timeline__title" id="internship">Changed at University of Michigan--Ann Arbor. Web Design & Development program</h3>
+      </div>
+      <h2 class="timeline__item timeline__item--year timeline__item--year__milestone"><span><i class="fas fa-network-wired"data-toggle="tooltip" data-placement="top" title="Internship"></i></span></h2><br>
+
+      <h2 class="timeline__item timeline__item--year">1996</h2>
+      
+      <div class="timeline__item left">
+
+        <h3 class="timeline__title">Web Design Internship</h3>
+        <p class="timeline__sub ">started internship at company 1.</p>
+      </div>
+      
+      <h2 class="timeline__item timeline__item--year">1997</h2>
+      
+      <div class="timeline__item right">
+        <h3 class="timeline__title">IT Internship</h3>
+        <p class="timeline__sub" id="pr_pr">Started internship at company 2</p>
+      </div>
+      <h2 class="timeline__item timeline__item--year timeline__item--year__milestone"><span><i class="fas fa-user-cog" data-toggle="tooltip" data-placement="top" title="Professional & Private"></i></span></h2><br>
+      <h2 class="timeline__item timeline__item--year">2010</h2>
+      
+      <div class="timeline__item left">
+        <h3 class="timeline__title">Travelled the world</h3>
+      </div>
+      
+      <div class="timeline__item right">
+        <h3 class="timeline__title">Application Engineer</h3>
+        <p class="timeline__sub ">Started web design/dev job at company 2.</p>
+      </div>
+      
+      <h2 class="timeline__item timeline__item--year">2012</h2>
+      
+      <div class="timeline__item left">
+        <h3 class="timeline__title">First Child</h3>
+        <p class="timeline__sub">Spouse and I welcomed our first daughter.</p>
+      </div>
+      
+      <h2 class="timeline__item timeline__item--year">2015</h2>
+      
+      <div class="timeline__item right">
+        <h3 class="timeline__title">Second Child</h3>
+        <p class="timeline__sub">Spouse and I welcomed our second daughter.</p>
+      </div>
+      
+      <h2 class="timeline__item timeline__item--year">2016</h2>
+      
+      <div class="timeline__item left">
+        <h3 class="timeline__title">Lead Application Engineer</h3>
+        <p class="timeline__sub">Promotion to mid-level role.</p>
+      </div>
+
+      <div class="timeline__item right">
+          <h3 class="timeline__title">Volunteering work</h3>
+          <p class="timeline__sub">Volunteer at the Rio Olympics</p>
+        </div>
+      
+      <h2 class="timeline__item timeline__item--year">2018</h2>
+      
+      <div class="timeline__item left">
+        <h3 class="timeline__title">Aerial/Circus Arts</h3>
+        <p class="timeline__sub">Started taking classes to learn aerial silks, hoop, and hammock.</p>
+      </div>
+      
+      <h2 class="timeline__item timeline__item--year">2019</h2>
+      
+    </div>   <!-- End timeline-->
+    </div>   <!-- End timeline col-->
+
+<!-- skill & testimonial col  -->
+  <div class="col-md-5 col-sm-12">
+<!-- Skills --> 
+      <div class="skills">
+        
+        <div class="title text-center text-muted"><h2><span><i class="fab fa-react text-muted"></i></span>My Development skills</h2></div>
+              <ul class="skill">
+                <li><span class="bar html"></span><h3 class="bar__text">HTML 5</h3></li>
+                <li><span class="bar css"></span><h3 class="bar__text">Css 3</h3></li>
+                <li><span class="bar javascript"></span><h3 class="bar__text">Javascript</h3></li>
+              </ul>
+           
+            <div class="title text-center text-muted"><h2><span><i class="fab fa-react text-muted"></i></span> Frameworks & Libraries</h2></div>
+              <ul class="skill">
+                <li><span class="bar jquery"></span><h3 class="bar__text">Jquery</h3></li>
+                <li><span class="bar bootstrap"></span><h3>Bootstrap</h3></li>
+                <li><span class="bar react"></span><h3>React</h3></li>
+              </ul>
+
+<!-- testimonials -->
+           <div class="title text-center text-muted"><h2><i class="far fa-comment-dots"></i> Testimonials</h2></div>
+    <hr>
+                      <div class="testimonial-bg">
+                         
+                              <div class="testimonial ">
+                                  <div class="pic">
+                                      <img src="img/blink00.png" alt="">
+                                  </div>
+                                  <h3 class="title">Fathia M,</h3>
+                                  <span class="post"> Health Professional</span><br><br>
+                                  <blockquote class="blockquote">
+                                  <p class="description">
+                                    <i class="fas fa-quote-left"></i> “Yves is versatile, extremely confident and dependable,<span class="btn_dots btn_dots__fathia">...read more</span><span class="hidden_text hidden_text__fathia"> seeing through his commitments responsibly. He demonstrates creative thinking, verbally expressive, and is fun to work with. A solid social networker indeed!”</span><span class="read_less read_less__fathia">read less</span>
+                                  </p>
+                                  <footer class="blockquote-footer text-right">Fathia, <cite title="Source Title">Partner </cite></footer>
+                                  </blockquote>
+                              </div>
+                      </div><br>
+                      <div class="testimonial-bg">
+                              <div class="testimonial">
+                                  <div class="pic">
+                                      <img src="img/bussman.jpg" alt="">
+                                  </div>
+                                  <h3 class="title">James D,</h3>
+                                  <span class="post"> IT-expert</span><br><br>
+                                  <blockquote class="blockquote">
+                                     <p class="description">
+                                     <i class="fas fa-quote-left"></i> “Enthusiam, Passion, Skilled and Focussed <span class="btn_dots btn_dots__james">...read more</span><span class="hidden_text hidden_text__james">Organisation skills would be my first impressions of Yves. He was an asset to The Athena Network UK and wish her well in Signapore. Anything he turns his hands too will be magnificant and be of value to his clients and business colleagues.”</span><span class="read_less read_less__james">read less</span>
+                                     </p>
+                                     <footer class="blockquote-footer text-right">James, <cite title="Source Title">Ex-collegue</cite></footer>
+                                  </blockquote>
+                              </div>
+                        </div><br>
+
+                        <div class="testimonial-bg">
+                               <div class="testimonial">
+                                  <div class="pic">
+                                      <img src="img/blink_kate.png" alt="">
+                                  </div>
+                                  <h3 class="title">Kate D,</h3>
+                                  <span class="post"> HR-Consultant</span><br><br>
+                                  <blockquote class="blockquote">
+                                    <p class="description">
+                                    <i class="fas fa-quote-left"></i> “I met Yves through Athena Totteridge group.<span class="btn_dots btn_dots__kate">...read more</span><span class="hidden_text hidden_text__kate">  I found him very friendly, helpful and very clear about how networking can profit your business. Good luck with Singapore!”</span><span class="read_less read_less__kate ">read less</span>
+                                    </p>
+                                    <footer class="blockquote-footer text-right">Kate, <cite title="Source Title">Former employer</cite></footer>
+                                  </blockquote>
+                              </div>
+                         </div>
+                      </div>  <!--end skills-->
+                  </div>   <!-- End skill & testimonial col  -->
+                </div>    <!-- End row section-->
+
+
+<!-- Footer row -->
+
+  <div class="row">
+          <div class="circles" id="contact_circles">
+              <!-- adres -->
+              <div class="col-md-4 col-sm-4">
+                    <div class="contact__item">
+                        <ul>
+                          <li class="contact__item__li"><i class="la la-map-marker"></i>22,Acacia Ave</li>
+                          <li class="contact__item__li">Van Nuys, CA</li>
+                          <li class="contact__item__li">U.S.A</li>
+                        </ul>
+                    </div>
+              </div>
+              <!-- map -->
+                <div class="col-md-4 col-sm-4">
+                    <div class="contact__item contact__item__pic">
+                    </div>
+                </div>
+              <!-- contact -->
+                <div class="col-md-4 col-sm-4">           
+                      <div class="contact__item contact__item__icon">
+                        <div class="list"><i class="la la-whatsapp"></i><i class="la la-envelope-o"></i><i class="la la-phone-square"></i><i class="la la-comment"></i></div>
+                        <div class="btn"><button class="btn__download" data-toggle="modal" data-target="#exampleModalScroll" ><i class="la la-cloud-download"></i> Download cv</button></div>
+                      </div>
+                </div>
+            </div>
+      
+  <!-- Modal voor download button -->
+        <div class="container">
+          <div class="modal fade" id="exampleModalScroll" tabindex="-1" role="dialog" aria-labelledby="exampleModalScroll" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollh">Error</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Sorry! Download is currently unavailable, please try again in a moment.</p>
+                  <p>CLICK ON THE X OR CLOSE BUTTON TO CLOSE</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  <!-- Favoutite coding site logos -->
+        <div class="favourite"> 
+            <div class="col-md-4 col-sm-4">
+                <a class="favourite__link favourite__link--color" href="https://www.github.com"><i id="github" class="la la-github"></i></a>
+                <a class="favourite__link favourite__link--color" href="https://stackoverflow.com"><i id="stack" class="la la-stack-overflow"></i></a>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <a class="favourite__link favourite__link--color" href="https://www.html5rocks.com"><i id="html5" class="la la-html5"></i></a>
+                <a class="favourite__link favourite__link--color" href="https://www.codecademy.com"><i id="code" class="la la-code"></i></a>
+          </div>
+
+          <div class="col-md-4 col-sm-4">
+                <a class="favourite__link favourite__link--color" href="https://www.jsfiddle.net"><i id="fiddle" class="la la-jsfiddle"></i></a>
+                <a class="favourite__link favourite__link--color" href="http://www.css3.info"><i id="css3" class="la la-css3"></i></a>
+            </div>
+        </div>
+
+  <!-- End row footer -->
+  </div>
+
+
+<div class="end"></div>   <!--Empty div height // remove later-->
+  
+</div>  <!-- End page container-->
+
+  <div class="social">
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.whatsapp.web.com"><i class="la la-whatsapp"></i></a>
+        <a href="https://www.googleplus.com"><i class="la la-google-plus"></i></a>
+        <a href="https://www.linkedin.com"><i class="la la-linkedin"></i></a>
+        <a href="https://www.facebook.com"><i class="la la-facebook-official"></i></a>
+        <a href="https://www.twitter.com"><i class="la la-twitter-square"></i></a>
+  </div>
+
+
+
+
+
+<!-- Jquery,Popper,Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

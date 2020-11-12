@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+   
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(8, 7, 2), rgb(3, 3, 2));
+    font-family: 'Playfair Display', serif; 
+    
+     
+
+}
+/* .parallax { */
+    /* The image used */
+    /* background-image: url('../img/orig.jpeg'); */
+  
+    /* Full height */
+    /* height: 100%;  */
+  
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+.pagecontainer {
+    width: 90vw;
+    margin: 0 auto;
+    /* background-image: linear-gradient(to bottom, rgb(8, 7, 2), rgb(3, 3, 2)); */
+}
+
+.navbar {
+    position: fixed;
+    width: 90%;
+    top: 0;
+
+}

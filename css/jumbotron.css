@@ -1,0 +1,71 @@
+/* jumbotron */
+.jumbotron {
+    background-image: url("../img/background-macbook.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    /* height: 100vh; */
+}
+
+/* Container holds everything inside the jumbotron */
+.container {
+    margin-top: 30px;
+}
+
+/* Avatar Yves */
+.container img {
+    border-radius: 100%;
+    background: rgba(255, 250, 250, 0.2);
+}
+
+/* Custom font / Google fonts / sofia  */
+.container h2 {
+    font-family: 'Sofia';
+    font-size: 3em;
+    margin: 0 auto;
+}
+
+/* Animated button to slide the page open //.JS */
+.titanic {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: #fff;
+    margin: 10px 130px 10px 10px;
+}
+
+/* Arrow pointing to the animated box */
+.arrow_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.arrow {
+    width: 100px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    font-size: 30px;
+
+}
+
+.arrow1 {
+    animation: slide1 1s ease-in-out infinite;
+    margin: 9px;
+
+}
+
+/* Arrow animation */
+@keyframes slide1 {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(30px, 0);
+    }
+}

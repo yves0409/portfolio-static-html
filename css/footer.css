@@ -1,0 +1,142 @@
+/* Favourite Coding sites */
+.favourite {
+    text-align: center;
+    font-size: 2.5em;
+    color: #555;
+    overflow: hidden;
+    min-height: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.favourite__link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.favourite__link i {
+    margin: .3em;
+    cursor: pointer;
+    transition: color 300ms ease, margin-top 300ms ease;
+    transform: translateZ(0);
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.favourite__link i:hover {
+    margin-top: -1px;
+
+}
+
+.favourite__link--color:nth-child(1):hover {
+    color: #6e5494;
+}
+
+.favourite__link--color:nth-child(2):hover {
+    color: #ef8236;
+}
+
+.favourite__link--color:nth-child(3):hover {
+    color: #F16529;
+}
+
+.favourite__link--color:nth-child(4):hover {
+    color: #fff;
+}
+
+.favourite__link--color:nth-child(5):hover {
+    color: #82A3DB;
+}
+
+.favourite__link--color:nth-child(6):hover {
+    color: #2965f1;
+}
+
+/* Info circles */
+
+.circles {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+
+/* All circles */
+.contact__item {
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 999px;
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    box-shadow: -1px 1px 5px 5px #CCC;
+
+}
+
+/* Second circle */
+.contact__item__pic {
+    background-image: url('https://www.thestar.com.my/~/media/online/2018/10/24/10/51/dcx_doc72go08wt7au1hdr5d8y1.ashx/?w=620&h=413&crop=1&hash=9D3DE4221C84878465B3DBFF3292907015F461F1');
+    background-size: contain;
+
+}
+
+/* Last circle */
+.contact__item__icon {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+
+}
+
+.contact__item__icon i:nth-child(1) {
+    color: #25d366;
+}
+
+.contact__item__icon i:nth-child(2) {
+    color: #ffffff;
+}
+
+.contact__item__icon i:nth-child(3) {
+    color: #17753a;
+}
+
+.contact__item__icon i:nth-child(4) {
+    color: #77a8df;
+}
+
+.btn__download {
+    -moz-box-shadow: 0px 0px 19px 0px #c21b1b;
+    -webkit-box-shadow: 0px 0px 19px 0px #c21b1b;
+    box-shadow: 0px 0px 19px 0px #c21b1b;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c23636), color-stop(1, #070f03));
+    background: -moz-linear-gradient(top, #c23636 5%, #070f03 100%);
+    background: -webkit-linear-gradient(top, #c23636 5%, #070f03 100%);
+    background: -o-linear-gradient(top, #c23636 5%, #070f03 100%);
+    background: -ms-linear-gradient(top, #c23636 5%, #070f03 100%);
+    background: linear-gradient(to bottom, #c23636 5%, #070f03 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c23636', endColorstr='#070f03', GradientType=0);
+    background-color: #c23636;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+}
+
+.end {
+    height: 220px;
+}
